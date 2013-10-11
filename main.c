@@ -9,7 +9,7 @@
 #include "system.h"        /* System funct/params, like osc/peripheral config */
 #include "user.h"          /* User funct/params, such as InitApp              */
 #include "../ELBAG_8873_LCD_LIBRARY.X/led.h"    /* LED library header */
-
+/**/
 
 /******************************************************************************/
 /* Global Variable Declaration                                                */
