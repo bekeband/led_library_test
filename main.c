@@ -39,7 +39,7 @@ int16_t main(void)
     }
 
 //    LED_STATES[0].COLOR = RED;
-    LED_STATES[1].STATE = ON;
+    LED_STATES[9].STATE = ON;
 
     while(1)
     {
