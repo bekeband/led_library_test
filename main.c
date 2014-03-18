@@ -35,8 +35,11 @@ int16_t main(void)
     for (i = 0; i < 10; i++)
     {
         LED_STATES[i].COLOR = RED;
-        LED_STATES[i].STATE = BLINK;
+        LED_STATES[i].STATE = OFF;
     }
+
+//    LED_STATES[0].COLOR = RED;
+    LED_STATES[1].STATE = ON;
 
     while(1)
     {
